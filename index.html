@@ -8,36 +8,49 @@
   </head>
   <body>
     <div class="main-content">
-        <div class="side-img girl-img">
-            <img src="images/left-side.png" class="sideImage" alt="">
-            </div>
+      <div class="side-img girl-img">
+        <img src="images/left-side.png" class="sideImage" alt="" />
+      </div>
       <div class="header"></div>
       <div class="container">
         <section class="player--0">
-            <div class="overlay">
-                
-            </div>
-          <div class="player-point">
+          <div class="overlay"></div>
+          <div class="player-point-0">
             <p class="p-header-0 p-header">Player 1</p>
             <p class="p-points-0 p-pts">23</p>
           </div>
+          <div class="current-point-0">
+            <p class="c-header-0">Scores</p>
+            <p class="c-points-0">23</p>
+          </div>
         </section>
         <section class="player--1">
-          <div class="player-point">
+          <div class="overlay"></div>
+          <div class="player-point-1">
             <p class="p-header-1 p-header">Player 2</p>
             <p class="p-points-1 p-pts">23</p>
           </div>
+          <div class="current-point-1">
+            <p class="c-header-1">Scores</p>
+            <p class="c-points-1">23</p>
+          </div>
         </section>
         <div class="reset-btn">
-          <a href="#" class="btn btn-reset">New Game</a>
+          <a href="#" class="btn btn-reset" id="reset">New Game</a>
         </div>
         <div class="die hidden">
-          <img class="dice-img" src="images/dice--3.png" alt="" id="dice--6" />
+          <img
+            class="dice-img"
+            id="diceImg"
+            src="images/dice--3.png"
+            alt=""
+            id="dice--6"
+          />
         </div>
         <div class="keep-btn">
-          <a href="#" class="btn btn-keep">Keep Points</a>
+          <a href="#" class="btn btn-keep" id="keep">Keep Points</a>
         </div>
-        <div class="roll-btn">
+        <div class="roll-btn" id="roll">
           <a href="#" class="btn btn-roll">Roll Dice</a>
         </div>
       </div>
